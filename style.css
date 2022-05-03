@@ -1,0 +1,111 @@
+body{
+  margin-top: 0px;
+  padding-right: 20px;
+  padding-left: 20px;
+  margin-right: 20px;
+  margin-left: 20px;
+  font-family: 'Quicksand', sans-serif;
+  margin-right: 0px;
+  text-align: center;
+}
+
+h1 {
+  font-size: 48px;
+}
+
+h2{
+    padding-top: 20px;
+}
+
+h3{
+  font-style: normal;
+  text-decoration: none;
+  font-weight: normal;
+}
+
+.top-pad-50{
+  padding-top: 50px;
+}
+
+a{
+  font-size: 18px;
+  text-decoration: none;
+}
+
+a:link{
+  color: rgb(56, 56, 56);
+}
+
+a:visited{
+  color: rgb(56, 56, 56);
+}
+
+a:hover{
+  color: rgb(56, 56, 56)
+}
+
+a:active{
+  color: rgb(56, 56, 56)
+}
+
+.info{
+  font-size: 18px;
+}
+
+select {
+  /* A reset of styles, including removing the default dropdown arrow*/
+  /* Additional resets for further consistency*/
+  background-color: rgb(128, 218, 255);
+  border: none;
+  padding: 0 1em 0 0;
+  margin: 0;
+  font-family: inherit;
+  font-size: inherit;
+  cursor: inherit;
+  line-height: inherit;
+}
+
+.pad{
+  padding: 20px;
+}
+
+.flag{
+  height: 40px;
+  border: 0.5px;
+  border-color: rgb(200,200,200);
+  border-style: ridge;
+}
+
+.pageflag{
+  height: 150px;
+  border: 0.5px;
+  border-color: rgb(200,200,200);
+  border-style: ridge;
+}
+
+.grid-container{
+  padding-top: 50px;
+  margin-top: 50px;
+  display: grid;
+  grid-template-columns: 50% auto;
+  padding: 10px;
+}
+.left-container{
+  grid-column: 1;
+  grid-row: 1;
+  justify-content: right;
+}
+
+.right-container{
+  grid-column: 2;
+  grid-row: 1;
+  justify-content: left;
+}
+
+.photo{
+  height: 800px;
+}
+
+.nav{
+    padding-right: 10px;
+}
