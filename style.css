@@ -109,3 +109,8 @@ select {
 .nav{
     padding-right: 10px;
 }
+
+.hidden{
+  display: none;
+  visibility: hidden;
+}
