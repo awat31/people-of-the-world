@@ -140,6 +140,7 @@ select {
 
 .photo{
   width: 80%;
+  height: relative;
   justify-content: center;
 }
 
