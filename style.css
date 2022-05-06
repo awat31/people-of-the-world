@@ -90,6 +90,7 @@ select {
   grid-template-columns: 50% auto;
   padding: 10px;
 }
+
 .left-container{
   grid-column: 1;
   grid-row: 1;
@@ -113,4 +114,28 @@ select {
 .hidden{
   display: none;
   visibility: hidden;
+}
+
+@media only screen and (max-width: 1080px) {
+
+.grid-container{
+
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: auto auto;
+    padding: 10px;
+  }
+
+.right-container{
+  grid-column: 1;
+  grid-row: 2;
+  justify-content: center;
+}
+
+.left-container{
+  grid-column: 1;
+  grid-row: 1;
+  justify-content: center;
+}
+
 }
