@@ -138,4 +138,8 @@ select {
   justify-content: center;
 }
 
+.photo{
+  width: 80%
+}
+
 }
