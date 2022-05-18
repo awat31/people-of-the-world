@@ -173,10 +173,8 @@ select {
 }
 
 .map{
-  width: 80%;
-  height: auto;
-  padding-top: 50px;
-  justify-content: center;
+  display: none;
+  visibility: hidden;
 
 }
 
