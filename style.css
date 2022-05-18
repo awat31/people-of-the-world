@@ -78,7 +78,8 @@ select {
 
 .map{
   padding-top: 50px;
-  width: 1060px;
+  width: 80%;
+  height: auto;
   justify-content: center;
 }
 
@@ -169,6 +170,14 @@ select {
   width: 80%;
   height: auto;
   justify-content: center;
+}
+
+.map{
+  width: 80%;
+  height: auto;
+  padding-top: 50px;
+  justify-content: center;
+
 }
 
 }
