@@ -76,6 +76,12 @@ select {
   line-height: inherit;
 }
 
+.map{
+  padding-top: 50px;
+  width: 60%;
+  justify-content: center;
+}
+
 .pad{
   padding: 20px;
 }
